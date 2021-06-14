@@ -1,0 +1,20 @@
+version: '3.9'
+services:
+  bull-monitor:
+    image: saade/hub-integrity
+    environment:
+        # Database Credentials
+        DB_HOST: 
+        DB_USER: 
+        DB_PASSWORD: 
+        DB_DATABASE: 
+
+        # Github Settings
+        GITHUB_PERSONAL_TOKEN: 
+        GITHUB_REPO: 
+        GITHUB_OWNER: 
+        GITHUB_LABELS: 
+        GITHUB_ASSIGNEES: 
+        
+        # Scheduler Settings
+        CRONTIME: '*/30 * * * *'

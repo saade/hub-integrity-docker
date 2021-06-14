@@ -1,0 +1,6 @@
+node_modules
+dumps
+
+.env
+.yarnrc
+yarn.lock
